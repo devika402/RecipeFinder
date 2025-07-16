@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "image": "images/spaghetti.jpg",
+    "description": "Classic Italian pasta made with eggs, cheese, pepper, and pancetta.",
+    "cuisine": "Italian"
+  },
+  {
+    "id": 2,
+    "title": "Lasagna",
+    "image": "images/lasagna.jpg",
+    "description": "Layered pasta with meat sauce, cheese, and rich béchamel.",
+    "cuisine": "Italian"
+  },
+  {
+    "id": 3,
+    "title": "Biryani",
+    "image": "images/biryani.jpg",
+    "description": "Aromatic basmati rice cooked with spices, meat, or vegetables.",
+    "cuisine": "Indian"
+  },
+  {
+    "id": 4,
+    "title": "Paneer Butter Masala",
+    "image": "images/paneer.jpg",
+    "description": "Creamy Indian curry with soft paneer cubes in a spiced tomato base.",
+    "cuisine": "Indian"
+  },
+  {
+    "id": 5,
+    "title": "Butter Chicken",
+    "image": "images/butter-chicken.jpg",
+    "description": "Rich and buttery chicken curry cooked in a creamy tomato sauce.",
+    "cuisine": "Indian"
+  },
+  {
+    "id": 6,
+    "title": "Chilli Chicken",
+    "image": "images/chilli-chicken.jpg",
+    "description": "Spicy Indo-Chinese chicken stir fry with chili sauce.",
+    "cuisine": "Indian"
+  },
+  {
+    "id": 7,
+    "title": "Tacos",
+    "image": "images/tacos.jpg",
+    "description": "Mexican tortillas filled with meat, cheese, lettuce, and salsa.",
+    "cuisine": "Mexican"
+  },
+  {
+    "id": 8,
+    "title": "Dorayaki",
+    "image": "images/dorayaki.jpg",
+    "description": "Japanese pancakes filled with sweet red bean paste.",
+    "cuisine": "Japanese"
+  },
+  {
+    "id": 9,
+    "title": "Sushi",
+    "image": "images/sushi.jpg",
+    "description": "Delicate Japanese rolls made with vinegared rice and seafood.",
+    "cuisine": "Japanese"
+  },
+  {
+    "id": 10,
+    "title": "Kimchi Stew",
+    "image": "images/kimchi.jpg",
+    "description": "Spicy Korean stew made with fermented kimchi and pork.",
+    "cuisine": "Korean"
+  },
+  {
+    "id": 11,
+    "title": "Ramen",
+    "image": "images/ramen.jpg",
+    "description": "Japanese noodle soup with savory broth, meat, and toppings.",
+    "cuisine": "Korean"
+  }
+]

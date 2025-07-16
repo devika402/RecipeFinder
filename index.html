@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipe Finder 🍽️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Recipe Finder 🍽️</h1>
+    <input type="text" id="searchInput" placeholder="Search for a recipe..." />
+    <select id="filterCuisine">
+      <option value="">All Cuisines</option>
+      <option value="Italian">Italian</option>
+      <option value="Indian">Indian</option>
+      <option value="Mexican">Mexican</option>
+      <option value="Japanese">Japanese</option>
+      <option value="Korean">Korean</option>
+    </select>
+  </header>
+
+  <main>
+    <div id="recipeList" class="grid"></div>
+
+    <h2>Meal Planner 🗓️</h2>
+    <div class="days">
+      <div class="day" data-day="Monday">Monday</div>
+      <div class="day" data-day="Tuesday">Tuesday</div>
+      <div class="day" data-day="Wednesday">Wednesday</div>
+      <div class="day" data-day="Thursday">Thursday</div>
+      <div class="day" data-day="Friday">Friday</div>
+      <div class="day" data-day="Saturday">Saturday</div>
+      <div class="day" data-day="Sunday">Sunday</div>
+    </div>
+  </main>
+
+  <template id="skeleton-template">
+    <div class="skeleton-card"></div>
+  </template>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <img id="modalImage" alt="Recipe Image"/>
+      <p id="modalDescription"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
