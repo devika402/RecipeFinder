@@ -38,4 +38,8 @@ A sleek and responsive web app that helps users discover delicious recipes and p
 - **CSS3** – Responsive styling with Flexbox and Grid
 - **JavaScript (Vanilla)** – Dynamic DOM updates, drag-drop, localStorage
 
+---
 
+## 🚀 Live Demo
+
+🔗 [Try it Live Here](https://devika402.github.io/RecipeFinder/)
